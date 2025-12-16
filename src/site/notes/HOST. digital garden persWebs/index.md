@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/host-digital-garden-pers-webs/index/","tags":["gardenEntry"]}
+{"dg-publish":true,"permalink":"/host-digital-garden-pers-webs/index/","tags":["gardenEntry"],"dgShowLocalGraph":true}
 ---
 
 
