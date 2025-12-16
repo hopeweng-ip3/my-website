@@ -5,9 +5,7 @@
 
 # The Essay Title
 
-![Portrait](https://link-to-your-photo.com/photo.jpg)
-*(Note: Drag and drop your photo into Obsidian, it works automatically)*
-
+![the internal ambience.jpg](/img/user/HOST.%20digital%20garden%20persWebs/Repo/the%20internal%20ambience.jpg)
 This is where your essay goes. It acts as the "Stranger's Story" introduction to who you are.
 
 ---
