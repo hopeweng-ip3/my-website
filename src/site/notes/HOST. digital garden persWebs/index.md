@@ -3,11 +3,11 @@
 ---
 
 
-# The Essay Title
+# Epictetus: On Provision
 
 ![the internal ambience.jpg](/img/user/HOST.%20digital%20garden%20persWebs/Repo/the%20internal%20ambience.jpg)
-This is where your essay goes. It acts as the "Stranger's Story" introduction to who you are.
+Website in development ...
 
 ---
 ### Explore
-[[HOST. digital garden persWebs/Research\|Research]]  |  [[CV\|CV]]  |  [[Garden\|Garden]]
+[[HOST. digital garden persWebs/Research\|Research]]  |  [[Garden\|Garden]]  |  [[CV\|CV]] 
