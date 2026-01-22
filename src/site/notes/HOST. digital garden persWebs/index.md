@@ -15,6 +15,11 @@
 ![the internal ambience.jpg](/img/user/HOST.%20digital%20garden%20persWebs/Repo/the%20internal%20ambience.jpg)
 
 
+
+
+
+![the internal ambience.jpg|left](/img/user/HOST.%20digital%20garden%20persWebs/Repo/the%20internal%20ambience.jpg)
+
 We often believe that to find our path, we must look forward, strategizing our next move with precision. But sometimes, the most profound direction comes from looking at what we are already trying to heal.
 
 C. Allen Weng (Allen) began his journey studying preventive medicine, drawn to the beautiful, quiet principle of preemptive care. He wanted to stop the break before it happened. Yet, as he deepened his study, he realized that the fractures we face today are not just biological—they are informational. The crisis is not just in our bodies, but in how we perceive, choose, and exist within the systems we have built.
