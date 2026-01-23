@@ -1,13 +1,27 @@
-body {
-    /***
-      ADD YOUR CUSTOM STYLING HERE. (INSIDE THE body {...} section.)
-      IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
-   ***/
-    //  background-color: white;
-    //  .content {
-    //   font-size: 14px;
-    //  }
-    //  h1 {
-    //   color: black;
-    //  }
+/* src/site/styles/user/custom-style.scss */
+
+/* Target the main content container */
+.content {
+    /* 1. THE MAGGIE APPLETON WIDTH */
+    /* Limits text width to ~65 chars. This creates the "side padding" automatically on large screens */
+    max-width: 72ch !important; 
+
+    /* 2. CENTER THE BLOCK */
+    /* This calculates the left/right margins automatically to center the content */
+    margin-left: auto !important;
+    margin-right: auto !important;
+
+    /* 3. MOBILE SAFETY PADDING */
+    /* Ensures text doesn't touch the screen edge on phones */
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    
+    /* Optional: Add space at the top so it doesn't hit the browser roof */
+    padding-top: 40px !important;
+}
+
+/* Optional: Ensure the Navbar also aligns with the content width */
+.navbar-inner {
+    max-width: 72ch !important;
+    margin: 0 auto !important;
 }
