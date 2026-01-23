@@ -124,3 +124,40 @@ body .callout[data-callout="profile"] .callout-content blockquote {
         gap: 15px;
     }
 }
+
+/* Make navbar span full width and stick to very top-left */
+.navbar {
+  position: fixed;        /* or sticky if you prefer */
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0 !important;  /* remove theme padding */
+  margin: 0 !important;
+  z-index: 9999;
+}
+
+/* Keep inner content centered but do not constrain the title text itself */
+.navbar-inner {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  max-width: 72ch;
+  margin: 0 auto;
+  padding: 10px 0;        /* reduce if needed */
+}
+
+/* Ensure the site title never truncates */
+.navbar-inner h1 {
+  margin: 0 !important;
+  padding: 0 !important;
+  white-space: normal;    /* allow wrapping */
+  overflow: visible;      /* no clipping */
+  text-overflow: clip;    /* disable ellipsis */
+}
+
+/* Prevent content from hiding behind fixed navbar */
+body .content {
+  max-width: 72ch;
+  margin: 0 auto;
+  padding: 70px 20px 40px;  /* top padding >= navbar height */
+}
