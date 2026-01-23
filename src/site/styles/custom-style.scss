@@ -28,7 +28,7 @@
 .navbar-inner h1 {
     margin: 0 !important;
     padding: 0 !important;
-    font-size: 2em;
+    font-size: 4em;
     white-space: nowrap !important;
     overflow: visible !important;   
     flex-shrink: 0;
@@ -127,14 +127,21 @@ body .content {
   border-color: var(--interactive-accent);
 }
 
-/* Styling the footnote section at the bottom */
+/* Remove the redundant double lines */
+.footnotes hr {
+    display: none !important; /* Hides the theme's automatic line */
+}
+
 .footnotes {
+    border-top: 1px solid var(--background-modifier-border); /* Replaces it with a single, controlled line */
+    margin-top: 40px;
+    padding-top: 20px;
     font-size: 0.85em;
     color: var(--text-muted);
-    border-top: 1px solid var(--background-modifier-border);
-    margin-top: 50px;
-    padding-top: 20px;
 }
+
+/* Optional: remove the horizontal rule if you want it to look extra clean */
+/* .footnotes { border-top: none !important; } */
 
 /* Styling the small superscript number link */
 .footnote-link {
