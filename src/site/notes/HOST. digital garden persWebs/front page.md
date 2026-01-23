@@ -27,7 +27,7 @@ Allen Weng studies [[HOST. digital garden persWebs/Project/Two-page Precis\|comp
 
 This garden documents how he picks up signals and seeks out systems—a home for easy organizing, [[HOST. digital garden persWebs/Garden/Philosophy Works\|inner work]], [[HOST. digital garden persWebs/Garden/news and special reports\|intentional storytelling]], and [[HOST. digital garden persWebs/Garden/Personal History Statement, PhD\|centering overlooked voices]].
 
-Join in the slower work of greater clarity: less accumulation, more humility.
+Feel the slower work of greater clarity: less accumulation, more humility. Listen deeply.
 
 </div>
 </div>
