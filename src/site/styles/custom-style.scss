@@ -1,5 +1,5 @@
 /* =========================================
-   3. THE FLUID NAVBAR (Top-Left Fix)
+   3. THE FLUID NAVBAR (Top-Left Fix with Dropdown)
    ========================================= */
 
 .navbar {
@@ -7,7 +7,7 @@
     top: 0;
     left: 0;
     width: 100% !important;
-    background-color: var(--background-primary); /* Ensures it's not see-through */
+    background-color: var(--background-primary);
     border-bottom: 1px solid var(--background-modifier-border);
     padding: 0 !important;
     margin: 0 !important;
@@ -15,49 +15,101 @@
 }
 
 .navbar-inner {
-    /* REMOVED: max-width: 72ch and margin: 0 auto */
-    /* ADDED: Full width with horizontal padding */
     display: flex !important;
     justify-content: space-between !important;
     align-items: center !important;
     width: 100% !important;
     max-width: 100% !important; 
-    padding: 15px 30px !important; /* This controls the gap from the very edge */
+    padding: 15px 30px !important; 
     margin: 0 !important;
 }
 
-/* Ensure the site title never truncates and shows fully */
+/* Site Title Styles */
 .navbar-inner h1 {
     margin: 0 !important;
     padding: 0 !important;
     font-size: 1.2em;
-    white-space: nowrap !important; /* Prevents "C. Allen..." truncation */
+    white-space: nowrap !important;
     overflow: visible !important;   
-    flex-shrink: 0;                 /* Stops the links from squashing the title */
+    flex-shrink: 0;
 }
 
+/* Right-side container (Dropdown + Search) */
 .navbar-links {
     display: flex;
-    gap: 25px;
+    align-items: center;
+    gap: 20px; /* Space between "The Garden" and Search Icon */
     flex-shrink: 1;
+}
+
+/* --- THE GARDEN DROPDOWN --- */
+.garden-dropdown {
+    position: relative;
+    cursor: pointer;
+}
+
+.garden-button {
+    list-style: none; /* Hides default triangle */
+    font-weight: 500;
+    font-size: 0.95em;
+    padding: 6px 12px;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 6px;
+    transition: background 0.2s ease;
+}
+
+.garden-button:hover {
+    background: var(--background-secondary);
+}
+
+.garden-button::-webkit-details-marker {
+    display: none; /* Safari fix */
+}
+
+.dropdown-content {
+    position: absolute;
+    right: 0;
+    top: calc(100% + 10px);
+    background: var(--background-primary);
+    border: 1px solid var(--background-modifier-border);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    min-width: 180px;
+    display: flex;
+    flex-direction: column;
+    padding: 8px 0;
+    border-radius: 8px;
+    z-index: 10001;
+}
+
+.dropdown-content a {
+    padding: 10px 18px;
+    font-size: 0.9em;
+    text-decoration: none !important;
+    color: var(--text-normal);
+    opacity: 0.8;
+}
+
+.dropdown-content a:hover {
+    background: var(--background-secondary);
+    opacity: 1;
 }
 
 /* =========================================
    4. GLOBAL LAYOUT ADJUSTMENT
    ========================================= */
 
-/* Adjusted padding-top to prevent content from hiding under the fixed navbar */
 body .content {
     max-width: 72ch;
     margin: 0 auto;
     padding: 100px 20px 40px !important; 
 }
 
-/* Mobile Responsiveness for Fluid Navbar */
 @media (max-width: 600px) {
     .navbar-inner {
         padding: 10px 15px !important;
-        flex-direction: row; /* Keeps name and links on one line if they fit */
-        font-size: 0.9em;
+    }
+    .garden-button {
+        padding: 4px 8px;
+        font-size: 0.85em;
     }
 }
