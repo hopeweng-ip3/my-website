@@ -25,7 +25,7 @@ A digital garden is organized by [connection](https://maggieappleton.com/garden-
 
 Allen Weng researches [[HOST. digital garden persWebs/Project/Two-page Precis\|computational cognitive science]], focusing on the impacts of technology and [[HOST. digital garden persWebs/Project/Communication Attributes paper_2025\|digital media]]. His work studies how algorithmic, feed-based interaction shape perception and choice, guiding contestable HCI systems and development. He is interested in technology policy that preserve user autonomy and support social character. He loves [[HOST. digital garden persWebs/Garden/Linear Algebra\|mathematics]], and enjoys raising awareness for active social interactions.
 
-Garden documents how he picks up signals and seeks out systems—a home for easy organizing, [[HOST. digital garden persWebs/Garden/Philosophy Works\|inner work]], intentional storytelling, and [[HOST. digital garden persWebs/Garden/Personal History Statement, PhD\|centering overlooked voices]].
+This garden documents how he picks up signals and seeks out systems—a home for easy organizing, [[HOST. digital garden persWebs/Garden/Philosophy Works\|inner work]], [[HOST. digital garden persWebs/Garden/news and special reports\|intentional storytelling]], and [[HOST. digital garden persWebs/Garden/Personal History Statement, PhD\|centering overlooked voices]].
 
 Join in the slower work of greater clarity: less accumulation, more humility.
 
