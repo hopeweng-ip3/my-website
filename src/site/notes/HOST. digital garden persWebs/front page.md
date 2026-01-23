@@ -19,15 +19,16 @@ Kahana Bay⁩, Hawaiʻi, 
 
 <div style="flex: 1; min-width: 300px;">
 
-We often believe that to find our path, we must look forward—strategizing our next move with precision. But sometimes the most clarifying direction comes from examining what we're already trying to heal.
+We often believe we must look forward to find our path, but sometimes the most clarifying direction comes from examining what we’re already trying to heal.
 
-A digital garden is organized by [connection](https://maggieappleton.com/garden-history#1-topography-over-timelines). Rather than a chronological list of finished articles, it hosts *a network of evolving notes*—ideas that get [tended](https://publish.obsidian.md/myquantumwell/Knowledge+Management#Inheritance), [expanded](https://zettelkasten.de/introduction/#the-fixed-address-of-each-note), and [interconnected](https://help.obsidian.md/plugins/backlinks)—as understanding evolves. By following natural advancement, one can navigate threads related to specific topics; the graph view of "backlinks" reveals hidden angles and connections. All pages reject finality and remain in exchange with old emergence and new representations, much like the creators of these systems.
+A digital garden organizes itself by [connection](https://maggieappleton.com/garden-history#1-topography-over-timelines), hosting *a network of evolving notes*—ideas that get [tended](https://publish.obsidian.md/myquantumwell/Knowledge+Management#Inheritance), [expanded](https://zettelkasten.de/introduction/#the-fixed-address-of-each-note), and [interconnected](https://help.obsidian.md/plugins/backlinks)—as understanding evolves. By following natural advancement, one can navigate threads related to specific topics, and the graph view of "backlinks" reveals hidden connection (Sometimes the patient work that was always underway becomes suddenly visible!). All pages reject finality and remain in exchange with old emergence and new representations, much like the creators of these systems.
 
-Allen Weng studies [[HOST. digital garden persWebs/Project/Two-page Precis\|computational cognitive science]], focusing on the impacts of technology and [[HOST. digital garden persWebs/Project/Communication Attributes paper_2025\|digital media]]. His work researches how algorithmic, feed-based interaction shape perception and choice, guiding the development of contestable Human-Computer Interaction systems. He loves [[HOST. digital garden persWebs/Garden/Linear Algebra\|mathematics]], and enjoys raising awareness about active social interactions.
+Allen Weng studies [[HOST. digital garden persWebs/Project/Two-page Precis\|computational cognitive science]], focusing on the impacts of technology and [[HOST. digital garden persWebs/Project/Communication Attributes paper_2025\|digital media]]. His work researches how algorithmic, feed-based interaction shape perception and choice, guiding the development of contestable Human-Computer Interaction systems. He loves [[HOST. digital garden persWebs/Garden/Linear Algebra\|mathematics]] and raising awareness about active social interactions.
 
 Garden documents how he picks up signals and seeks out systems—a home for easy organization, [[HOST. digital garden persWebs/Garden/Philosophy Works\|inner work]], [[HOST. digital garden persWebs/Garden/news and special reports\|intentional storytelling]], and [[HOST. digital garden persWebs/Garden/Personal History Statement, PhD\|centering overlooked voices]].
 
-Feel the slower work of greater clarity: less accumulation, more humility. Listen deeply.
+Welcome to the slower work of greater clarity: less accumulation, more humility. 
+<br>Listen deeply.
 
 </div>
 </div>
