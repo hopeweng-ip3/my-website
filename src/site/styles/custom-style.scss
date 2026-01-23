@@ -1,34 +1,8 @@
 /* src/site/styles/user/custom-style.scss */
 
-/* Target the main content container */
-.content {
-    /* 1. THE MAGGIE APPLETON WIDTH */
-    /* Limits text width to ~65 chars. This creates the "side padding" automatically on large screens */
-    max-width: 72ch !important; 
+/* --- PROFILE CARD STYLING --- */
 
-    /* 2. CENTER THE BLOCK */
-    /* This calculates the left/right margins automatically to center the content */
-    margin-left: auto !important;
-    margin-right: auto !important;
-
-    /* 3. MOBILE SAFETY PADDING */
-    /* Ensures text doesn't touch the screen edge on phones */
-    padding-left: 20px !important;
-    padding-right: 20px !important;
-    
-    /* Optional: Add space at the top so it doesn't hit the browser roof */
-    padding-top: 40px !important;
-}
-
-/* Optional: Ensure the Navbar also aligns with the content width */
-.navbar-inner {
-    max-width: 72ch !important;
-    margin: 0 auto !important;
-}
-
-/* src/site/styles/user/custom-style.scss */
-
-/* 1. Target the specific 'profile' callout type */
+/* 1. Main Container: Hides the outer box styling */
 .callout[data-callout="profile"] {
     background: transparent !important;
     border: none !important;
@@ -37,47 +11,52 @@
     margin: 0 !important;
 }
 
-/* 2. Hide the default Callout Title/Icon row */
+/* 2. Hide the default Callout Title Row */
 .callout[data-callout="profile"] .callout-title {
     display: none !important;
 }
 
-/* 3. Turn the content area into a Flex container */
+/* 3. Grid Layout: Image Left, Text Right */
 .callout[data-callout="profile"] .callout-content {
     display: flex;
     flex-wrap: wrap;
-    gap: 40px; /* Space between Image and Text */
+    gap: 40px;
     align-items: flex-start;
 }
 
-/* 4. Left Column: The Image (First direct child) */
-/* We target the paragraph containing the image */
+/* 4. Left Column: Image & Caption */
 .callout[data-callout="profile"] .callout-content > p:first-child {
-    flex: 0 0 300px; /* Fixed width for the image column */
+    flex: 0 0 300px;  /* Fixed width for image column */
     margin: 0;
 }
+
 .callout[data-callout="profile"] .callout-content img {
     width: 100%;
     border-radius: 5px;
     display: block;
+    margin-bottom: 8px; /* Space between image and caption */
 }
 
-/* 5. Right Column: The Nested Blockquote (Where your text is) */
+/* --- FIX: CAPTION ALIGNMENT --- */
+/* Target the italic text (*) under the image */
+.callout[data-callout="profile"] .callout-content > p:first-child em {
+    display: block;
+    text-align: left;       /* <--- Forces Left Alignment */
+    font-size: 0.85em;
+    color: #888;            /* Subtle Gray */
+    font-style: italic;
+    line-height: 1.3;
+}
+
+/* 5. Right Column: The Text Block */
 .callout[data-callout="profile"] .callout-content > blockquote {
-    flex: 1; /* Takes up remaining space */
-    min-width: 300px; /* Prevents squishing on mobile */
+    flex: 1;
+    min-width: 300px;
     margin: 0 !important;
     padding: 0 !important;
-    border: none !important; /* Removes the vertical gray bar */
     background: transparent !important;
-}
-
-/* Styling the Caption inside the Profile Callout */
-.callout[data-callout="profile"] .callout-content > p:first-child em {
-    display: block;           /* Forces it to its own line */
-    text-align: center;       /* Centers it under the photo */
-    font-size: 0.85em;        /* Makes it slightly smaller */
-    color: #666;              /* Makes it subtle gray */
-    margin-top: 8px;          /* Adds breathing room */
-    font-style: normal;       /* Optional: Removes italic tilt if you prefer straight text */
+    
+    /* --- FIX: REMOVES THE VERTICAL GRAY LINE --- */
+    border-left: none !important; 
+    border: none !important;
 }
