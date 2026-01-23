@@ -71,3 +71,13 @@
     border: none !important; /* Removes the vertical gray bar */
     background: transparent !important;
 }
+
+/* Styling the Caption inside the Profile Callout */
+.callout[data-callout="profile"] .callout-content > p:first-child em {
+    display: block;           /* Forces it to its own line */
+    text-align: center;       /* Centers it under the photo */
+    font-size: 0.85em;        /* Makes it slightly smaller */
+    color: #666;              /* Makes it subtle gray */
+    margin-top: 8px;          /* Adds breathing room */
+    font-style: normal;       /* Optional: Removes italic tilt if you prefer straight text */
+}
