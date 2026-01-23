@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/host-digital-garden-pers-webs/index/","title":"The Garden is A View","tags":["gardenEntry"]}
 ---
 
-# Signals and Systems
+<h1 class="homepage-header">Signals and Systems</h1>
 
 <div style="display: flex; flex-wrap: wrap; gap: 40px; align-items: flex-start;">
 
@@ -30,21 +30,6 @@ Welcome to the slower work of becoming clearer: not through accumulation, but th
 </div>
 </div>
 
-<h1 class="homepage-header">Signals and Systems</h1>
-
-<div class="homepage-grid">
-    <div class="hp-image-col">
-        <img src="/img/user/HOST.%20digital%20garden%20persWebs/Repo/we%20are%20in%20Hawaii_9_Original.jpg" alt="Hawaii Shot" width="300px">
-        <p class="hp-caption">Hauula, Hawaiʻi, Shot on March 12, 2022</p>
-    </div>
-
-    <div class="hp-text-col">
-        <p>We often believe that to find our path, we must look forward—strategizing our next move with precision. But sometimes the most clarifying direction comes from examining what we're already trying to heal.</p>
-        
-        <p>This website is organized by connection, not chronology. Rather than a timeline of finished articles, it's a network of evolving notes—ideas that get tended, expanded, and linked to one another as understanding deepens...</p>
-        
-        </div>
-</div>
 
 <style>
 /* --- Homepage Layout & Padding --- */
