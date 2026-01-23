@@ -25,7 +25,7 @@ A digital garden organizes itself by [connection](https://maggieappleton.com/gar
 
 Allen Weng studies [[HOST. digital garden persWebs/Project/Two-page Precis\|computational cognitive science]], focusing on the impacts of technology and [[HOST. digital garden persWebs/Project/Communication Attributes paper_2025\|digital media]]. His work researches how algorithmic, feed-based interaction shape perception and choice, guiding the development of contestable Human-Computer Interaction systems. He loves [[HOST. digital garden persWebs/Garden/Linear Algebra\|mathematics]] and raising awareness about active social interactions.
 
-Garden documents how he picks up signals and seeks out systems—a home for easy organization, [[HOST. digital garden persWebs/Garden/Philosophy Works\|inner work]], [[HOST. digital garden persWebs/Garden/news and special reports\|intentional storytelling]], and [[HOST. digital garden persWebs/Garden/Personal History Statement, PhD\|centering overlooked voices]].
+Garden documents how he picks up signals and seeks out systems—a home for easy organization, [[HOST. digital garden persWebs/Garden/Philosophy Works\|inner work]], [[HOST. digital garden persWebs/Garden/news and special reports\|creative storytelling]]`<a class="link-preview" href="https://nytimes.com">New York Times</a>`, and [[HOST. digital garden persWebs/Garden/Personal History Statement, PhD\|centering overlooked voices]].
 
 Welcome to the slower work of greater clarity: less accumulation, more humility. 
 <br>Listen deeply.
@@ -76,3 +76,15 @@ div[style*="width: 38.2%"] img {
     }
 }
 </style>
+
+<script src="https://cdn.jsdelivr.net/npm/@microlink/vanilla@latest/dist/microlink.min.js"></script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    // This finds any link with the class "link-preview" and turns it into a card
+    microlink('.link-preview', {
+      size: 'large',
+      rounded: true
+    });
+  });
+</script>
