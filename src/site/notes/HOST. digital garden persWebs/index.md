@@ -21,7 +21,7 @@ We often believe that to find our path, we must look forward—strategizing our 
 
 This website is organized by connection, not chronology. Rather than a timeline of finished articles, it's a network of evolving notes—**ideas that get tended, expanded, and linked to one another as understanding deepens**. You navigate by following threads between related concepts; the graph view reveals hidden patterns. Nothing here claims to be final; everything remains in conversation with what came before and what might emerge next.
 
-C. Allen Weng ("Allen") is a researcher and journalist exploring the intersection of human systems and digital infrastructure. His work examines how algorithmic systems shape perception and choice, and how we might design technologies that preserve dignity rather than diminish it. He has written for publications examining social algorithms, behavioral economics, and the cultural forces that reshape how we think. Through reporting and research, he has come to understand that the fractures we face today—biological, social, technological—are deeply interconnected.
+Allen is a researcher and journalist exploring the intersection of human systems and digital infrastructure. His work examines how algorithmic systems shape perception and choice, and how we might design technologies that preserve dignity rather than diminish it. 
 
 This garden documents that exploration. It's a home for [overlooked voices](https://mp.weixin.qq.com/s/3MZtjQbdCWXT13ZQCNZ5jg) and unconventional thinking—not as answers, but as an invitation to ask dangerous questions without knowing where they lead.
 
