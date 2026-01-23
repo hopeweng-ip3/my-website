@@ -21,11 +21,11 @@ Kahana Bay⁩, Hawaiʻi, 
 
 We often believe that to find our path, we must look forward—strategizing our next move with precision. But sometimes the most clarifying direction comes from examining what we're already trying to heal.
 
-This website is organized by connection. Rather than a chronology for finished articles, it's a special venue for *a network of evolving notes*–ideas that get tended, expanded, and linked to one another as understanding deepens. You navigate by following threads between related concepts; the graph view reveals hidden patterns. Nothing here claims to be final; everything remains in conversation with old dying emergence and new grown proficiency.
+This website is organized by connection. Rather than a chronology for finished articles, it's a special venue for *a network of evolving notes*–ideas that get tended, expanded, and linked to one another as understanding deepens. One can follow threads related to topics and navigate in natural advance. The graph view reveals hidden angles. All pages reject finality and remain in conversation with old emergence and new proficiency.
 
-Allen Weng is a research scientist exploring mathematical psychology and human-centered computing, focusing on the impacts of technology and [[HOST. digital garden persWebs/Project/Communication Attributes paper_2025\|digital media]]. His work examines how algorithmic systems shape perception and choice, and how we might design technologies that preserve dignity rather than diminish it. 
+Allen Weng researches mathematical psychology and human-centered computing, focusing on the impacts of technology and [[HOST. digital garden persWebs/Project/Communication Attributes paper_2025\|digital media]]. His work examines how algorithmic systems shape perception and choice, and how we might design technologies that preserve character rather than diminish it. He loves mathematics and enjoys raising awareness about open human connections.
 
-This garden documents how he picks up signals and seeks out systems—a home for [intentional storytelling](https://mp.weixin.qq.com/s/3MZtjQbdCWXT13ZQCNZ5jg) and [[HOST. digital garden persWebs/Garden/Personal History Statement, PhD\|centering overlooked voices]]. Not as answers, but as an invitation to ask dangerous questions without knowing where they lead.
+This garden documents how he picks up signals and seeks out systems—a home for [intentional storytelling](https://mp.weixin.qq.com/s/3MZtjQbdCWXT13ZQCNZ5jg) and [[HOST. digital garden persWebs/Garden/Personal History Statement, PhD\|centering overlooked voices]].
 
 Join in the slower work of greater clarity: less accumulation, more humility.
 
