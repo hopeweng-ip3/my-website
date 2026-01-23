@@ -113,3 +113,16 @@ body .content {
         font-size: 0.85em;
     }
 }
+
+.microlink_card {
+  margin: 20px 0;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 8px;
+  background: var(--background-primary);
+  max-width: 100%;
+}
+
+.microlink_card:hover {
+  background: var(--background-secondary);
+  border-color: var(--interactive-accent);
+}
