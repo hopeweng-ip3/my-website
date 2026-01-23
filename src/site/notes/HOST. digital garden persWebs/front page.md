@@ -44,9 +44,13 @@ body .content {
 /* Calculated to match the new image ratio: 
    36% (Image width) + 40px (Gap) 
 */
+
 .homepage-header {
     margin-left: calc(38.2% + 40px) !important; 
     margin-bottom: 20px !important;
+    font-size: 2.2em !important; /* Forces it to be a large title */
+    line-height: 1.1;
+    font-weight: 700;
 }
 
 /* --- Image Width Force --- */
