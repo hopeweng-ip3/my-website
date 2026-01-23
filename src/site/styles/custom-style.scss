@@ -126,3 +126,37 @@ body .content {
   background: var(--background-secondary);
   border-color: var(--interactive-accent);
 }
+
+/* Styling the footnote section at the bottom */
+.footnotes {
+    font-size: 0.85em;
+    color: var(--text-muted);
+    border-top: 1px solid var(--background-modifier-border);
+    margin-top: 50px;
+    padding-top: 20px;
+}
+
+/* Styling the small superscript number link */
+.footnote-link {
+    text-decoration: none !important;
+    color: var(--interactive-accent);
+    font-weight: bold;
+    padding: 0 2px;
+}
+
+/* Styling the footnote marker */
+.footnote-link {
+    font-size: 0.75em;
+    vertical-align: super;
+    text-decoration: none !important;
+    color: var(--interactive-accent);
+    padding: 2px 4px;
+    background: var(--background-secondary);
+    border-radius: 4px;
+    transition: all 0.2s ease;
+}
+
+.footnote-link:hover {
+    background: var(--interactive-accent);
+    color: white !important;
+}
