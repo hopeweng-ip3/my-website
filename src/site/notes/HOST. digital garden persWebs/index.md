@@ -1,28 +1,32 @@
 ---
-{"dg-publish":true,"permalink":"/host-digital-garden-pers-webs/index/","tags":["gardenEntry"]}
+{"dg-publish":true,"permalink":"/host-digital-garden-pers-webs/index/","title":"The Garden is A View","tags":["gardenEntry"]}
 ---
 
 
-# View the Garden
+<div style="display: flex; flex-wrap: wrap; gap: 40px; align-items: flex-start;">
 
-[[HOST. digital garden persWebs/Project/The Media Project\|The Media Project]]  |  [[HOST. digital garden persWebs/Garden/Path of Inner Work\|Path of Inner Work]] 
+<div style="flex: 0 0 300px; width: 300px;">
 
-----
+![we are in Hawaii_9_Original.jpg|300](/img/user/HOST.%20digital%20garden%20persWebs/Repo/we%20are%20in%20Hawaii_9_Original.jpg)
 
-> [!profile|clean] 
-> ![we are in Hawaii_9_Original.jpg](/img/user/HOST.%20digital%20garden%20persWebs/Repo/we%20are%20in%20Hawaii_9_Original.jpg)
-> <br>*Hauula, Hawaiʻi, Shot on March 12, 2022*
->
->> # The Art of Preemptive Care
->>
->> We often believe that to find our path, we must look forward, strategizing our next move with precision. But sometimes, the most profound direction comes from looking at what we are already trying to heal.
->>
->> This website is a **digital garden**—an ad-hoc structure that resists the pressure to be finished. It does not follow the linear logic of a feed; instead, it grows organically, mirroring the non-linear way we actually think.
->>
->> C. Allen Weng ("Allen") uses this space to practice the "art of preemptive care" on an informational level. He realized that the fractures we face today are not just biological, but algorithmic. The crisis is not just in our bodies, but in how we perceive, choose, and exist within the systems we have built.
->>
->> Here, he explores **sociotechnical alignment**: the critical intersection where human needs meet digital tools. He studies social algorithms not to optimize them for engagement, but to ask how we can preserve dignity in an age of automated influence. He seeks to design systems that respect the unquantifiable growth of the human spirit rather than flattening it.
->>
->> This garden is a documentation of that work in complex systems. It is a space for [overlooked voices](https://mp.weixin.qq.com/s/3MZtjQbdCWXT13ZQCNZ5jg) and non-traditional paths—offered not as a final answer, but as an invitation to pose daring questions without guarantees.
->>
->> Welcome to the process of becoming intelligent, not by knowing more, but by thinking with greater clarity and humility.
+<p style="margin-top: 0px; font-style: italic; color: #888; font-size: 0.85em; line-height: 1.3;">
+Hauula, Hawaiʻi, Shot on March 12, 2022
+</p>
+</div>
+
+<div style="flex: 1; min-width: 300px;">
+
+# The Art of Preemptive Care
+
+We often believe that to find our path, we must look forward—strategizing our next move with precision. But sometimes the most clarifying direction comes from examining what we're already trying to heal.
+
+This website is organized by connection, not chronology. Rather than a timeline of finished articles, it's a network of evolving notes—ideas that get tended, expanded, and linked to one another as understanding deepens. You navigate by following threads between related concepts; the graph view reveals hidden patterns. Nothing here claims to be final; everything remains in conversation with what came before and what might emerge next.
+
+C. Allen Weng is a researcher and journalist exploring the intersection of human systems and digital infrastructure. His work examines how algorithmic systems shape perception and choice, and how we might design technologies that preserve dignity rather than diminish it. He has written for publications examining social algorithms, behavioral economics, and the cultural forces that reshape how we think. Through reporting and research, he has come to understand that the fractures we face today—biological, social, technological—are deeply interconnected.
+
+This garden documents that exploration. It's a home for [overlooked voices](https://mp.weixin.qq.com/s/3MZtjQbdCWXT13ZQCNZ5jg) and unconventional thinking—not as answers, but as an invitation to ask dangerous questions without knowing where they lead.
+
+Welcome to the slower work of becoming clearer: not through accumulation, but through thinking with greater precision and humility.
+
+</div>
+</div>
