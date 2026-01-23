@@ -2,6 +2,7 @@
 {"dg-publish":true,"permalink":"/host-digital-garden-pers-webs/index/","title":"The Garden is A View","tags":["gardenEntry"]}
 ---
 
+# Signals and Systems
 
 <div style="display: flex; flex-wrap: wrap; gap: 40px; align-items: flex-start;">
 
@@ -16,8 +17,6 @@ Kahana Bay⁩, Hawaiʻi, Shot on March 12, 2022
 
 <div style="flex: 1; min-width: 300px;">
 
-# Signals and Systems
-
 We often believe that to find our path, we must look forward—strategizing our next move with precision. But sometimes the most clarifying direction comes from examining what we're already trying to heal.
 
 This website is organized by connection, not chronology. Rather than a timeline of finished articles, it's a network of evolving notes—**ideas that get tended, expanded, and linked to one another as understanding deepens**. You navigate by following threads between related concepts; the graph view reveals hidden patterns. Nothing here claims to be final; everything remains in conversation with what came before and what might emerge next.
@@ -31,21 +30,17 @@ Welcome to the slower work of becoming clearer: not through accumulation, but th
 </div>
 </div>
 
-<style>****
-  /* 1. Override the default narrow reading width */
-  body, main, .content, .wrapper {
-      max-width: 95vw !important; /* Uses 95% of the screen */
-      padding-left: 10px !important;
-      padding-right: 10px !important;
-  }
+<style>
+/* FORCE HOMEPAGE WIDTH OVERRIDE */
+/* This specific selector beats the global custom-style.scss */
+body .content {
+    max-width: 95vw !important;   /* Uses 95% of screen width instead of 72ch */
+    padding-left: 20px !important; /* Resets the forced side padding */
+    padding-right: 20px !important;
+}
 
-  /* 2. Ensure your Navbar expands to match the new width */
-  .navbar-inner {
-      max-width: 95vw !important;
-  }
-
-  /* 3. Keep the text readable (optional: limits text line length while keeping layout wide) */
-  p, li {
-      max-width: 70ch; /* Keeps paragraphs from becoming too wide to read */
-  }
+/* Optional: If you want the text lines to stay readable but the layout wide */
+body .content p {
+    max-width: 80ch;
+}
 </style>
