@@ -5,7 +5,7 @@
 
 # View the Garden
 
-[[HOST. digital garden persWebs/The Media Project/The Media Project\|The Media Project]]  |  [[HOST. digital garden persWebs/Garden/Path of Inner Work\|Path of Inner Work]] 
+[[HOST. digital garden persWebs/Project/The Media Project\|The Media Project]]  |  [[HOST. digital garden persWebs/Garden/Path of Inner Work\|Path of Inner Work]] 
 
 ----
 
