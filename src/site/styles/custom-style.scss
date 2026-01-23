@@ -25,3 +25,49 @@
     max-width: 72ch !important;
     margin: 0 auto !important;
 }
+
+/* src/site/styles/user/custom-style.scss */
+
+/* 1. Target the specific 'profile' callout type */
+.callout[data-callout="profile"] {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* 2. Hide the default Callout Title/Icon row */
+.callout[data-callout="profile"] .callout-title {
+    display: none !important;
+}
+
+/* 3. Turn the content area into a Flex container */
+.callout[data-callout="profile"] .callout-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px; /* Space between Image and Text */
+    align-items: flex-start;
+}
+
+/* 4. Left Column: The Image (First direct child) */
+/* We target the paragraph containing the image */
+.callout[data-callout="profile"] .callout-content > p:first-child {
+    flex: 0 0 300px; /* Fixed width for the image column */
+    margin: 0;
+}
+.callout[data-callout="profile"] .callout-content img {
+    width: 100%;
+    border-radius: 5px;
+    display: block;
+}
+
+/* 5. Right Column: The Nested Blockquote (Where your text is) */
+.callout[data-callout="profile"] .callout-content > blockquote {
+    flex: 1; /* Takes up remaining space */
+    min-width: 300px; /* Prevents squishing on mobile */
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important; /* Removes the vertical gray bar */
+    background: transparent !important;
+}
