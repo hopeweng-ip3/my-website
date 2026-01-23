@@ -30,17 +30,69 @@ Welcome to the slower work of becoming clearer: not through accumulation, but th
 </div>
 </div>
 
+<h1 class="homepage-header">Signals and Systems</h1>
+
+<div class="homepage-grid">
+    <div class="hp-image-col">
+        <img src="/img/user/HOST.%20digital%20garden%20persWebs/Repo/we%20are%20in%20Hawaii_9_Original.jpg" alt="Hawaii Shot" width="300px">
+        <p class="hp-caption">Hauula, Hawaiʻi, Shot on March 12, 2022</p>
+    </div>
+
+    <div class="hp-text-col">
+        <p>We often believe that to find our path, we must look forward—strategizing our next move with precision. But sometimes the most clarifying direction comes from examining what we're already trying to heal.</p>
+        
+        <p>This website is organized by connection, not chronology. Rather than a timeline of finished articles, it's a network of evolving notes—ideas that get tended, expanded, and linked to one another as understanding deepens...</p>
+        
+        </div>
+</div>
+
 <style>
-/* FORCE HOMEPAGE WIDTH OVERRIDE */
-/* This specific selector beats the global custom-style.scss */
+/* --- Homepage Layout & Padding --- */
 body .content {
-    max-width: 95vw !important;   /* Uses 95% of screen width instead of 72ch */
-    padding-left: 20px !important; /* Resets the forced side padding */
-    padding-right: 20px !important;
+    max-width: 1100px !important; /* Wider than 72ch, but not full screen */
+    margin: 0 auto !important;
+    padding: 100px 40px !important; /* Adds 40px padding to the sides */
 }
 
-/* Optional: If you want the text lines to stay readable but the layout wide */
-body .content p {
-    max-width: 80ch;
+/* --- Alignment Logic --- */
+.homepage-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+.hp-image-col {
+    flex: 0 0 300px;
+    width: 300px;
+}
+
+.hp-text-col {
+    flex: 1;
+    min-width: 300px;
+}
+
+/* This pushes the header to the right exactly by [Image Width + Gap] */
+.homepage-header {
+    margin-left: 340px !important; 
+    margin-bottom: 20px !important;
+}
+
+.hp-caption {
+    margin-top: 8px;
+    font-style: italic;
+    color: #888;
+    font-size: 0.85em;
+    line-height: 1.3;
+}
+
+/* --- Mobile Fix --- */
+@media (max-width: 800px) {
+    .homepage-header {
+        margin-left: 0 !important; /* Reset alignment on mobile */
+    }
+    body .content {
+        padding: 80px 20px !important;
+    }
 }
 </style>
