@@ -32,7 +32,7 @@ Welcome to the slower work of greater clarity: less accumulation, more humility.
 </div>
 </div>
 
-Sometimes the patient work that has always been underway suddenly becomes visible!
+[^1]: Sometimes the patient work that has always been underway suddenly becomes visible!
 
 <style>
 /* --- Homepage Layout & Padding --- */
@@ -89,4 +89,21 @@ div[style*="width: 38.2%"] img {
   });
 </script>
 
-[^1]: Sometimes the patient work that has always been underway suddenly becomes visible!
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const footnoteLinks = document.querySelectorAll('.footnote-link');
+    
+    footnoteLinks.forEach(link => {
+        // Find the ID of the footnote content (usually something like #fn-1)
+        const id = link.getAttribute('href').substring(1);
+        const footnoteContent = document.getElementById(id);
+        
+        if (footnoteContent) {
+            // Take the text, remove the "back to text" arrow (↩)
+            const text = footnoteContent.innerText.replace('↩', '').trim();
+            // Set it as a 'title' attribute for a native browser tooltip
+            link.setAttribute('title', text);
+        }
+    });
+});
+</script>
