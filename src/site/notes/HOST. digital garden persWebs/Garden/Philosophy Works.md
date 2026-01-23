@@ -25,7 +25,6 @@ I fall in again.
 I can't believe I am in the same place  
 but, it isn't my fault.  
 It still takes a long time to get out.  
-_
 
 _III_
 
@@ -37,14 +36,12 @@ my eyes are open
 I know where I am.  
 It is my fault.  
 I get out immediately.  
-_
 
 _IV_
 
 _I walk down the same street.  
 There is a deep hole in the sidewalk.  
 I walk around it.  
-_
 
 _V_
 
