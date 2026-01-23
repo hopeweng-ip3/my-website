@@ -27,7 +27,7 @@ Allen Weng studies [[HOST. digital garden persWebs/Project/Two-page Precis\|comp
 
 Garden documents how he picks up signals and seeks out systems—a home for easy organization, [[HOST. digital garden persWebs/Garden/Philosophy Works\|inner work]], [[HOST. digital garden persWebs/Garden/news and special reports\|creative storytelling]], and [[HOST. digital garden persWebs/Garden/Personal History Statement, PhD\|centering overlooked voices]].
 
-Welcome to the slower work of greater clarity: less accumulation, more humility. Listen deeply.
+What signals are you noticing? What systems are you building to listen?
 
 </div>
 </div>
