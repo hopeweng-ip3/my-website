@@ -11,7 +11,7 @@
 
 > [!profile|clean] 
 > ![we are in Hawaii_9_Original.jpg](/img/user/HOST.%20digital%20garden%20persWebs/Repo/we%20are%20in%20Hawaii_9_Original.jpg)
-> <br>*‎⁨Hauula⁩, ⁨Hawaiʻi, Shot on March 12, 2022⁩*
+> <br>*Hauula, Hawaiʻi, Shot on March 12, 2022*
 >
 >> # The Art of Preemptive Care
 >>
