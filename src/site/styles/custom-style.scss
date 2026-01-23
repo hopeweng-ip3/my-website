@@ -1,33 +1,25 @@
 /* src/site/styles/user/custom-style.scss */
 
 /* =========================================
-   1. GLOBAL LAYOUT (The "Maggie Appleton" Look)
+   1. GLOBAL LAYOUT (Centered, Maggie Appleton Style)
    ========================================= */
-
-/* Centers the content and restricts width to ~72 characters */
-.content {
-    max-width: 72ch !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    
-    /* Adds safety padding for mobile screens */
-    padding-left: 20px !important;
-    padding-right: 20px !important;
-    padding-top: 40px !important;
+body .content {
+    max-width: 72ch;
+    margin: 0 auto;
+    padding: 40px 20px;
 }
 
-/* Aligns the Navbar to match the content width */
-.navbar-inner {
-    max-width: 72ch !important;
-    margin: 0 auto !important;
+body .navbar-inner {
+    max-width: 72ch;
+    margin: 0 auto;
 }
 
 /* =========================================
-   2. PROFILE CARD (Two Columns, No Gray Lines)
+   2. PROFILE CARD (Two Columns, Zero Borders)
    ========================================= */
 
-/* The Main Container: Removes all default box styling */
-.callout[data-callout="profile"] {
+/* Main Container: Reset all default styles */
+body .callout[data-callout="profile"] {
     background: transparent !important;
     border: none !important;
     box-shadow: none !important;
@@ -35,36 +27,40 @@
     margin: 0 !important;
 }
 
-/* Hides the Callout Title/Icon row */
-.callout[data-callout="profile"] .callout-title {
+/* Hide Title Row */
+body .callout[data-callout="profile"] .callout-title {
     display: none !important;
 }
 
-/* The Grid Layout */
-.callout[data-callout="profile"] .callout-content {
+/* Flex Grid Layout */
+body .callout[data-callout="profile"] .callout-content {
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
     align-items: flex-start;
+    /* Ensure the container itself has no border/padding */
+    border: none !important;
+    padding: 0 !important;
 }
 
 /* --- LEFT COLUMN: Image & Caption --- */
-.callout[data-callout="profile"] .callout-content > p:first-child {
-    flex: 0 0 300px; /* Fixed width for image column */
+body .callout[data-callout="profile"] .callout-content > p:first-child {
+    flex: 0 0 300px; /* Fixed width */
     margin: 0;
 }
 
-.callout[data-callout="profile"] .callout-content img {
+/* Image Styling */
+body .callout[data-callout="profile"] .callout-content img {
     width: 100%;
     border-radius: 5px;
     display: block;
-    margin-bottom: 8px;
+    margin-bottom: 5px; /* Tight spacing for caption */
 }
 
-/* The Caption (Italic text under image) */
-.callout[data-callout="profile"] .callout-content > p:first-child em {
+/* Caption Styling (Italics under image) */
+body .callout[data-callout="profile"] .callout-content > p:first-child em {
     display: block;
-    text-align: left;       /* Left aligns under the photo */
+    text-align: left;
     font-size: 0.85em;
     color: #888;
     font-style: italic;
@@ -72,17 +68,17 @@
 }
 
 /* --- RIGHT COLUMN: The Text Block --- */
-/* This targets the nested blockquote (the >> part) */
-.callout[data-callout="profile"] blockquote {
+/* We target the blockquote specifically to remove the Gray Line */
+body .callout[data-callout="profile"] .callout-content blockquote {
     flex: 1;
     min-width: 300px;
     margin: 0 !important;
     padding: 0 !important;
     background: transparent !important;
     
-    /* FIX FOR GRAY LINE: Removes border and box-shadow */
+    /* THE NUCLEAR FIX FOR THE GRAY LINE */
     border: none !important;
     border-left: none !important;
-    box-shadow: none !important; 
+    box-shadow: none !important;
     outline: none !important;
 }
