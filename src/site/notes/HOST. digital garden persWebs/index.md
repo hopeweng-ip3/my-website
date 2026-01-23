@@ -12,7 +12,7 @@
 
 <p style="margin-top: 0px; font-style: italic; color: #888; font-size: 0.85em; line-height: 1.3;">
 Kahana Bay⁩, Hawaiʻi, 
-Shot on March 12, 2022
+<br>Shot on March 12, 2022
 </p>
 </div>
 
@@ -20,13 +20,11 @@ Shot on March 12, 2022
 
 We often believe that to find our path, we must look forward—strategizing our next move with precision. But sometimes the most clarifying direction comes from examining what we're already trying to heal.
 
-This website is organized by connection, not chronology. Rather than a timeline of finished articles, it's *a network of evolving notes*–ideas that get tended, expanded, and linked to one another as understanding deepens. You navigate by following threads between related concepts; the graph view reveals hidden patterns. Nothing here claims to be final; everything remains in conversation with what came before and what might emerge next.
+This website is organized by connection. Rather than a chronology for finished articles, it's a special venue for *a network of evolving notes*–ideas that get tended, expanded, and linked to one another as understanding deepens. You navigate by following threads between related concepts; the graph view reveals hidden patterns. Nothing here claims to be final; everything remains in conversation with what came before and what might emerge next.
 
-Allen is a researcher and journalist exploring the intersection of human-centered systems and digital infrastructure. His work examines how algorithmic systems shape perception and choice, and how we might design technologies that preserve dignity rather than diminish it. 
+Allen is a researcher and journalist exploring mathematical psychology and human-centered computing, focusing on the impacts of technology. His work examines how algorithmic systems shape perception and choice, and how we might design technologies that preserve dignity rather than diminish it. This garden documents that exploration—a home for [intentional storytelling](https://mp.weixin.qq.com/s/3MZtjQbdCWXT13ZQCNZ5jg) and centering overlooked voices. Not as answers, but as an invitation to ask dangerous questions without knowing where they lead.
 
-This garden documents that exploration. It's a home for [overlooked voices](https://mp.weixin.qq.com/s/3MZtjQbdCWXT13ZQCNZ5jg) and unconventional thinking—not as answers, but as an invitation to ask dangerous questions without knowing where they lead.
-
-Welcome to the slower work of becoming clearer: not through accumulation, but through thinking with greater precision and humility.
+Join in the slower work of picking up signals: less accumulation, more humility, greater clarity.
 
 </div>
 </div>
