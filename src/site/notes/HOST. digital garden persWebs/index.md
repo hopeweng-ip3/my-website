@@ -19,7 +19,7 @@ Kahana Bay⁩, Hawaiʻi, Shot on March 12, 2022
 
 We often believe that to find our path, we must look forward—strategizing our next move with precision. But sometimes the most clarifying direction comes from examining what we're already trying to heal.
 
-This website is organized by connection, not chronology. Rather than a timeline of finished articles, it's a network of evolving notes—**ideas that get tended, expanded, and linked to one another as understanding deepens**. You navigate by following threads between related concepts; the graph view reveals hidden patterns. Nothing here claims to be final; everything remains in conversation with what came before and what might emerge next.
+This website is organized by connection, not chronology. Rather than a timeline of finished articles, it's **a network of evolving notes**—ideas that get tended, expanded, and linked to one another as understanding deepens. You navigate by following threads between related concepts; the graph view reveals hidden patterns. Nothing here claims to be final; everything remains in conversation with what came before and what might emerge next.
 
 Allen is a researcher and journalist exploring the intersection of human systems and digital infrastructure. His work examines how algorithmic systems shape perception and choice, and how we might design technologies that preserve dignity rather than diminish it. 
 
