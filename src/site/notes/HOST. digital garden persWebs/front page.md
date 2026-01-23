@@ -6,7 +6,7 @@
 
 <div style="display: flex; flex-wrap: wrap; gap: 40px; align-items: flex-start;">
 
-<div style="flex: 0 0 36%; width: 36%;">
+<div style="flex: 0 0 38.2%; width: 38.2%;">
 
 ![we are in Hawaii_9_Original.jpg](/img/user/HOST.%20digital%20garden%20persWebs/Repo/we%20are%20in%20Hawaii_9_Original.jpg)
 
@@ -46,13 +46,13 @@ body .content {
    36% (Image width) + 40px (Gap) 
 */
 .homepage-header {
-    margin-left: calc(36% + 40px) !important; 
+    margin-left: calc(38.2% + 40px) !important; 
     margin-bottom: 20px !important;
 }
 
 /* --- Image Width Force --- */
 /* Ensures the image fills the 36% container width */
-div[style*="width: 36%"] img {
+div[style*="width: 38.2%"] img {
     width: 100% !important;
     height: auto;
 }
