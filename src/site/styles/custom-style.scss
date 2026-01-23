@@ -138,14 +138,6 @@ body .content {
 
 /* Styling the small superscript number link */
 .footnote-link {
-    text-decoration: none !important;
-    color: var(--interactive-accent);
-    font-weight: bold;
-    padding: 0 2px;
-}
-
-/* Styling the footnote marker */
-.footnote-link {
     font-size: 0.75em;
     vertical-align: super;
     text-decoration: none !important;
