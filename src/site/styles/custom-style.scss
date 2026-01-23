@@ -1,163 +1,63 @@
-/* src/site/styles/user/custom-style.scss */
-
 /* =========================================
-   1. GLOBAL LAYOUT (Centered, Maggie Appleton Style)
-   ========================================= */
-body .content {
-    max-width: 72ch;
-    margin: 0 auto;
-    padding: 40px 20px;
-}
-
-body .navbar-inner {
-    max-width: 72ch;
-    margin: 0 auto;
-}
-
-/* =========================================
-   2. PROFILE CARD (Two Columns, Zero Borders)
+   3. THE FLUID NAVBAR (Top-Left Fix)
    ========================================= */
 
-/* Main Container: Reset all default styles */
-body .callout[data-callout="profile"] {
-    background: transparent !important;
-    border: none !important;
-    box-shadow: none !important;
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    background-color: var(--background-primary); /* Ensures it's not see-through */
+    border-bottom: 1px solid var(--background-modifier-border);
     padding: 0 !important;
     margin: 0 !important;
+    z-index: 9999;
 }
 
-/* Hide Title Row */
-body .callout[data-callout="profile"] .callout-title {
-    display: none !important;
-}
-
-/* Flex Grid Layout */
-body .callout[data-callout="profile"] .callout-content {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 40px;
-    align-items: flex-start;
-    /* Ensure the container itself has no border/padding */
-    border: none !important;
-    padding: 0 !important;
-}
-
-/* --- LEFT COLUMN: Image & Caption --- */
-body .callout[data-callout="profile"] .callout-content > p:first-child {
-    flex: 0 0 300px; /* Fixed width */
-    margin: 0;
-}
-
-/* Image Styling */
-body .callout[data-callout="profile"] .callout-content img {
-    width: 100%;
-    border-radius: 5px;
-    display: block;
-    margin-bottom: 5px; /* Tight spacing for caption */
-}
-
-/* Caption Styling (Italics under image) */
-body .callout[data-callout="profile"] .callout-content > p:first-child em {
-    display: block;
-    text-align: left;
-    font-size: 0.85em;
-    color: #888;
-    font-style: italic;
-    line-height: 1.3;
-}
-
-/* --- RIGHT COLUMN: The Text Block --- */
-/* We target the blockquote specifically to remove the Gray Line */
-body .callout[data-callout="profile"] .callout-content blockquote {
-    flex: 1;
-    min-width: 300px;
-    margin: 0 !important;
-    padding: 0 !important;
-    background: transparent !important;
-    
-    /* THE NUCLEAR FIX FOR THE GRAY LINE */
-    border: none !important;
-    border-left: none !important;
-    box-shadow: none !important;
-    outline: none !important;
-}
-
-/* --- MAGGIE APPLETON STYLE NAVBAR --- */
-
-/* 1. Make the navbar a Flex container (Left and Right sides) */
 .navbar-inner {
+    /* REMOVED: max-width: 72ch and margin: 0 auto */
+    /* ADDED: Full width with horizontal padding */
     display: flex !important;
-    justify-content: space-between !important; /* Pushes items to edges */
+    justify-content: space-between !important;
     align-items: center !important;
-    width: 100%;
-    max-width: 72ch; /* Matches your content width */
-    margin: 0 auto;
-    padding: 20px 0; /* Add some vertical breathing room */
+    width: 100% !important;
+    max-width: 100% !important; 
+    padding: 15px 30px !important; /* This controls the gap from the very edge */
+    margin: 0 !important;
 }
 
-/* 2. Styling the Link Container on the right */
+/* Ensure the site title never truncates and shows fully */
+.navbar-inner h1 {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 1.2em;
+    white-space: nowrap !important; /* Prevents "C. Allen..." truncation */
+    overflow: visible !important;   
+    flex-shrink: 0;                 /* Stops the links from squashing the title */
+}
+
 .navbar-links {
     display: flex;
-    gap: 25px; /* Space between the two links */
+    gap: 25px;
+    flex-shrink: 1;
 }
 
-/* 3. Styling the Links themselves */
-.navbar-links a {
-    text-decoration: none !important;
-    color: var(--text-normal);
-    font-size: 0.95em;
-    font-weight: 500;
-    opacity: 0.7; /* Slightly gray by default */
-    transition: opacity 0.2s ease;
+/* =========================================
+   4. GLOBAL LAYOUT ADJUSTMENT
+   ========================================= */
+
+/* Adjusted padding-top to prevent content from hiding under the fixed navbar */
+body .content {
+    max-width: 72ch;
+    margin: 0 auto;
+    padding: 100px 20px 40px !important; 
 }
 
-.navbar-links a:hover {
-    opacity: 1; /* Darker on hover */
-    text-decoration: underline !important;
-}
-
-/* 4. Mobile Responsiveness */
+/* Mobile Responsiveness for Fluid Navbar */
 @media (max-width: 600px) {
     .navbar-inner {
-        flex-direction: column;
-        gap: 15px;
+        padding: 10px 15px !important;
+        flex-direction: row; /* Keeps name and links on one line if they fit */
+        font-size: 0.9em;
     }
-}
-
-/* Make navbar span full width and stick to very top-left */
-.navbar {
-  position: fixed;        /* or sticky if you prefer */
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 0 !important;  /* remove theme padding */
-  margin: 0 !important;
-  z-index: 9999;
-}
-
-/* Keep inner content centered but do not constrain the title text itself */
-.navbar-inner {
-  display: flex !important;
-  justify-content: space-between !important;
-  align-items: center !important;
-  max-width: 72ch;
-  margin: 0 auto;
-  padding: 10px 0;        /* reduce if needed */
-}
-
-/* Ensure the site title never truncates */
-.navbar-inner h1 {
-  margin: 0 !important;
-  padding: 0 !important;
-  white-space: normal;    /* allow wrapping */
-  overflow: visible;      /* no clipping */
-  text-overflow: clip;    /* disable ellipsis */
-}
-
-/* Prevent content from hiding behind fixed navbar */
-body .content {
-  max-width: 72ch;
-  margin: 0 auto;
-  padding: 70px 20px 40px;  /* top padding >= navbar height */
 }
