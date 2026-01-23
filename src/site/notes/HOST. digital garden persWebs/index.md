@@ -3,9 +3,9 @@
 ---
 
 
-# Views
+# View the Garden
 
-[[HOST. digital garden persWebs/The Media Project/The Media Project\|The Media Project]]  |  [[HOST. digital garden persWebs/Garden/Garden\|Garden]] 
+[[HOST. digital garden persWebs/The Media Project/The Media Project\|The Media Project]]  |  [[HOST. digital garden persWebs/Garden/Path of Inner Work\|Path of Inner Work]] 
 
 ----
 
