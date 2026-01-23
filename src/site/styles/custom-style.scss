@@ -1,8 +1,32 @@
 /* src/site/styles/user/custom-style.scss */
 
-/* --- PROFILE CARD STYLING --- */
+/* =========================================
+   1. GLOBAL LAYOUT (The "Maggie Appleton" Look)
+   ========================================= */
 
-/* 1. Main Container: Hides the outer box styling */
+/* Centers the content and restricts width to ~72 characters */
+.content {
+    max-width: 72ch !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    
+    /* Adds safety padding for mobile screens */
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    padding-top: 40px !important;
+}
+
+/* Aligns the Navbar to match the content width */
+.navbar-inner {
+    max-width: 72ch !important;
+    margin: 0 auto !important;
+}
+
+/* =========================================
+   2. PROFILE CARD (Two Columns, No Gray Lines)
+   ========================================= */
+
+/* The Main Container: Removes all default box styling */
 .callout[data-callout="profile"] {
     background: transparent !important;
     border: none !important;
@@ -11,12 +35,12 @@
     margin: 0 !important;
 }
 
-/* 2. Hide the default Callout Title Row */
+/* Hides the Callout Title/Icon row */
 .callout[data-callout="profile"] .callout-title {
     display: none !important;
 }
 
-/* 3. Grid Layout: Image Left, Text Right */
+/* The Grid Layout */
 .callout[data-callout="profile"] .callout-content {
     display: flex;
     flex-wrap: wrap;
@@ -24,9 +48,9 @@
     align-items: flex-start;
 }
 
-/* 4. Left Column: Image & Caption */
+/* --- LEFT COLUMN: Image & Caption --- */
 .callout[data-callout="profile"] .callout-content > p:first-child {
-    flex: 0 0 300px;  /* Fixed width for image column */
+    flex: 0 0 300px; /* Fixed width for image column */
     margin: 0;
 }
 
@@ -34,29 +58,31 @@
     width: 100%;
     border-radius: 5px;
     display: block;
-    margin-bottom: 8px; /* Space between image and caption */
+    margin-bottom: 8px;
 }
 
-/* --- FIX: CAPTION ALIGNMENT --- */
-/* Target the italic text (*) under the image */
+/* The Caption (Italic text under image) */
 .callout[data-callout="profile"] .callout-content > p:first-child em {
     display: block;
-    text-align: left;       /* <--- Forces Left Alignment */
+    text-align: left;       /* Left aligns under the photo */
     font-size: 0.85em;
-    color: #888;            /* Subtle Gray */
+    color: #888;
     font-style: italic;
     line-height: 1.3;
 }
 
-/* 5. Right Column: The Text Block */
-.callout[data-callout="profile"] .callout-content > blockquote {
+/* --- RIGHT COLUMN: The Text Block --- */
+/* This targets the nested blockquote (the >> part) */
+.callout[data-callout="profile"] blockquote {
     flex: 1;
     min-width: 300px;
     margin: 0 !important;
     padding: 0 !important;
     background: transparent !important;
     
-    /* --- FIX: REMOVES THE VERTICAL GRAY LINE --- */
-    border-left: none !important; 
+    /* FIX FOR GRAY LINE: Removes border and box-shadow */
     border: none !important;
+    border-left: none !important;
+    box-shadow: none !important; 
+    outline: none !important;
 }
