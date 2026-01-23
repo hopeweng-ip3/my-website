@@ -9,4 +9,16 @@
 
 ----
 
-<div style="display: flex; flex-wrap: wrap; gap: 30px; align-items: flex-start;"> <div style="flex: 1; min-width: 250px; max-width: 350px;"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Hacienda_Horse_and_Rider%2C_historic_neon_sign%2C_Las_Vegas%2C_Nevada_LCCN2011631083.tif/lossy-page1-1280px-Hacienda_Horse_and_Rider%2C_historic_neon_sign%2C_Las_Vegas%2C_Nevada_LCCN2011631083.tif.jpg" alt="Portrait" style="width: 100%; border-radius: 5px; margin-top: 10px;"> </div> <div style="flex: 2; min-width: 300px;"> <h1>The Art of Preemptive Care  (About the Gardener)</h1> <p>We often believe that to find our path, we must look forward, strategizing our next move with precision. But sometimes, the most profound direction comes from looking at what we are already trying to heal.</p> <p>C. Allen Weng (Allen) began his journey studying preventive medicine, drawn to the beautiful, quiet principle of preemptive care. He wanted to stop the break before it happened. Yet, as he deepened his study, he realized that the fractures we face today are not just biological—they are informational.</p> <p>He discovered that his deepest aptitude lay not in biomedical scholarship, but in formal reasoning—the architecture of how we think. He realized that true health isn’t just the absence of disease; it is the presence of agency.</p> <p>This website is a garden, a sanctuary for discovery that resists the pressure to be finished. Here, he explores the sociotechnical alignment between our human needs and our digital tools.</p> <p>We are often taught to measure our worth by what we produce, but he has learned that the most vital parts of us are often the ones that technical education bypasses. This is a space for those <ahref="https://mp.weixin.qq.com/s/3MZtjQbdCWXT13ZQCNZ5jg">overlooked voices</a> and non-traditional paths. It is a documentation of his work in complex systems, not as a final answer, but as an invitation to pose daring questions without guarantees.</p> <p>Welcome to the process of becoming intelligent, not by knowing more, but by thinking with greater clarity and humility.</p> </div> </div>
+> [!profile|clean] 
+> ![we are in Hawaii_9_Original.jpg](/img/user/HOST.%20digital%20garden%20persWebs/Repo/we%20are%20in%20Hawaii_9_Original.jpg)
+> <br>*‎⁨Hauula⁩, ⁨Hawaiʻi, Shot on March 12, 2022⁩*
+>
+>> # The Art of Preemptive Care
+>>
+>> We often believe that to find our path, we must look forward, strategizing our next move with precision. But sometimes, the most profound direction comes from looking at what we are already trying to heal.
+>>
+>> C. Allen Weng (Allen) began his journey studying preventive medicine, drawn to the beautiful, quiet principle of preemptive care. He wanted to stop the break before it happened. Yet, as he deepened his study, he realized that the fractures we face today are not just biological—they are informational.
+>>
+>> He discovered that his deepest aptitude lay not in biomedical scholarship, but in formal reasoning...
+>>
+>> Welcome to the process of becoming intelligent, not by knowing more, but by thinking with greater clarity and humility.
