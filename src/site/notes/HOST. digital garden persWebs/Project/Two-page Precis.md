@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/host-digital-garden-pers-webs/project/two-page-precis/","title":"RTwo-page Precis"}
+{"dg-publish":true,"permalink":"/host-digital-garden-pers-webs/project/two-page-precis/","title":"Two-page Precis"}
 ---
 
 
