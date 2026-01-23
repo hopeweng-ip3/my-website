@@ -82,3 +82,45 @@ body .callout[data-callout="profile"] .callout-content blockquote {
     box-shadow: none !important;
     outline: none !important;
 }
+
+/* --- MAGGIE APPLETON STYLE NAVBAR --- */
+
+/* 1. Make the navbar a Flex container (Left and Right sides) */
+.navbar-inner {
+    display: flex !important;
+    justify-content: space-between !important; /* Pushes items to edges */
+    align-items: center !important;
+    width: 100%;
+    max-width: 72ch; /* Matches your content width */
+    margin: 0 auto;
+    padding: 20px 0; /* Add some vertical breathing room */
+}
+
+/* 2. Styling the Link Container on the right */
+.navbar-links {
+    display: flex;
+    gap: 25px; /* Space between the two links */
+}
+
+/* 3. Styling the Links themselves */
+.navbar-links a {
+    text-decoration: none !important;
+    color: var(--text-normal);
+    font-size: 0.95em;
+    font-weight: 500;
+    opacity: 0.7; /* Slightly gray by default */
+    transition: opacity 0.2s ease;
+}
+
+.navbar-links a:hover {
+    opacity: 1; /* Darker on hover */
+    text-decoration: underline !important;
+}
+
+/* 4. Mobile Responsiveness */
+@media (max-width: 600px) {
+    .navbar-inner {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
