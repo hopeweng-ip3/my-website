@@ -34,7 +34,7 @@ What signals are you noticing? What systems are you building to listen?
 
 
 
-> [!NOTE] temporary link
+> [!NOTE] An initial entry to the garden:
 > [[HOST. digital garden persWebs/Garden/Quotidian Insights from the Categorical Imperative\|Quotidian Insights from the Categorical Imperative]]
 
 
