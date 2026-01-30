@@ -3,11 +3,11 @@
 ---
 
 
-I first encountered Kant’s concept of the "Categorical Imperative" in a book on personality psychology. It was presented as the internal drive found in a specific archetype of people: those who are highly orderly and deeply committed to shared societal values.
+I first encountered Kant’s concept of the "Categorical Imperative (meaning unconditional action for a matter)" in a book on personality psychology. It was presented as the internal drive found in a specific archetype of people: those who are highly law-abiding and deeply committed to common societal values.
 
-The foundational concept of the Categorical Imperative is that moral obligation and pro-sociality possess an "objective" reality within the human mind—even though they are clearly human constructs that hold meaning only for us. This objective existence is internalized, more or less, as a factory setting for life. Specifically, people treat it as a condition of causality: they view the success or failure of events (for themselves and others) as contingent upon these moral laws. It also serves as the baseline for gauging whether a stranger or a different group is "like us."
+The foundational concept of the Categorical Imperative is that moral obligation and pro-sociality possess an "objective" reality within the human mind—even though they are clearly human constructs that hold meaning only for us. This objective existence is internalized as a factory setting for life. Specifically, people treat it as a condition of causality: they view the success or failure of events (for themselves and others) as contingent upon these moral laws. It also serves as the baseline for gauging whether a stranger or a different group is "like us."
 
-Finally, when viewed through Kant’s "Formula of Autonomy and the Kingdom of Ends," this concept suggests that a sense of personal responsibility is primarily triggered when an action is taken based on a Categorical Imperative one has accepted as their own.
+Finally, when viewed through Kant’s another [[HOST. digital garden persWebs/Garden/key formula for morality#**3. The Formula of Autonomy and the Kingdom of Ends**\|key formula for morality]], this concept suggests that a sense of personal responsibility is primarily triggered when an action is taken based on a Categorical Imperative one has accepted as their own.
 
 The Stoics believed that the key to autonomy lies in distinguishing between the parts of an encounter we must actively care for and tend to, versus the mere impression of whether the encounter is "good" or "bad." I find that Kant’s Categorical Imperative helps me operationalize this Stoic wisdom. It allows me to ask: _Which imperative is being challenged in this situation or task?_ And then, I simply focus on that part.
 
