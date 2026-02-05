@@ -6,20 +6,19 @@ const allSettings = settings.ALL_NOTE_SETTINGS;
 module.exports = {
   eleventyComputed: {
     layout: (data) => {
-      // FIX ADDED HERE: Check if tags exist before looking inside them
+      // FIX 1: Safety Check for 'layout'
       if (data.tags && data.tags.includes("gardenEntry")) {
         return "layouts/index.njk";
       }
       return "layouts/note.njk";
     },
     permalink: (data) => {
-      // 1. Safety Check: Only check tags if they actually exist
+      // FIX 2: Safety Check for 'permalink'
       if (data.tags && data.tags.includes("gardenEntry")) {
         return "/";
       }
 
-      // 2. If a manual permalink is set (like /media-project/), use it.
-      // Otherwise, this falls back to the default from notes.json.
+      // If a manual permalink is set (like /media-project/), use it.
       return data.permalink || undefined;
     },
     settings: (data) => {
