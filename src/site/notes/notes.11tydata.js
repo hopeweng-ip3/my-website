@@ -11,12 +11,16 @@ module.exports = {
       }
       return "layouts/note.njk";
     },
-    permalink: (data) => {
-      if (data.tags.indexOf("gardenEntry") != -1) {
+permalink: (data) => {
+    // 1. Safety Check: Only check tags if they actually exist
+    if (data.tags && data.tags.includes("gardenEntry")) {
         return "/";
-      }
-      return data.permalink || undefined;
-    },
+    }
+
+    // 2. If a manual permalink is set (like /media-project/), use it.
+    // Otherwise, this falls back to the default from notes.json.
+    return data.permalink || undefined;
+},
     settings: (data) => {
       const noteSettings = {};
       allSettings.forEach((setting) => {
