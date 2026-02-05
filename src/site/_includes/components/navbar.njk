@@ -1,4 +1,4 @@
-{%if settings.dgHomeLink === true%}
+{% if settings.dgHomeLink === true %}
     <nav class="navbar">
         <div class="navbar-inner">
             <a href="/" style="text-decoration: none;">
@@ -11,7 +11,7 @@
 
             <div class="navbar-links">
                 
-                <details class="garden-dropdown">
+                <details class="garden-dropdown" id="gardenDetails">
                     <summary class="garden-button">View The Garden</summary>
                     <div class="dropdown-content">
                         <a href="/media-project/">The Media Project</a>
@@ -19,16 +19,26 @@
                     </div>
                 </details>
 
-                {% if settings.dgEnableSearch === true%}
+                {% if settings.dgEnableSearch === true %}
                     {% include "components/searchButton.njk" %}
-                {%endif%}
+                {% endif %}
             </div>
         </div>
     </nav>
-{%else%}
-    <div class="empty-navbar" >
-        {% if settings.dgEnableSearch === true%}
+
+    <script>
+    document.addEventListener('click', function(event) {
+        var dropdown = document.getElementById('gardenDetails');
+        if (dropdown && dropdown.open && !dropdown.contains(event.target)) {
+            dropdown.removeAttribute('open');
+        }
+    });
+    </script>
+
+{% else %}
+    <div class="empty-navbar">
+        {% if settings.dgEnableSearch === true %}
             {% include "components/searchButton.njk" %}
-        {%endif%}
+        {% endif %}
     </div>
-{%endif%}
+{% endif %}
