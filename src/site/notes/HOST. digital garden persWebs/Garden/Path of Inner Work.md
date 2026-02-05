@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/host-digital-garden-pers-webs/garden/path-of-inner-work/","title":"Garden"}
+{"dg-publish":true,"permalink":"/host-digital-garden-pers-webs/garden/path-of-inner-work/","title":"Path of Inner Work"}
 ---
 
 	

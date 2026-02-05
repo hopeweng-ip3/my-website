@@ -5,5 +5,4 @@
 
 
 
-
 [[HOST. digital garden persWebs/Project/Two-page Precis\|Two-page Precis]]
