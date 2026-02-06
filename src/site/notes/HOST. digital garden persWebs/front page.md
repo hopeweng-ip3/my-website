@@ -19,7 +19,7 @@ Kahana Bay⁩, Hawaiʻi, 
 
 <div style="flex: 1; min-width: 300px;">
 
-We often believe we must look forward to find our path, but sometimes the most clarifying direction comes from examining what we’re already trying to heal.
+Sometimes the most clarifying direction comes not from looking forward, but from examining what we’re already trying to heal.
 
 A digital garden organizes itself by [connection](https://maggieappleton.com/garden-history#1-topography-over-timelines), hosting *a network of evolving notes*—ideas that get [tended](https://publish.obsidian.md/myquantumwell/Knowledge+Management#Inheritance), [expanded](https://zettelkasten.de/introduction/#the-fixed-address-of-each-note), and [interconnected](https://help.obsidian.md/plugins/backlinks)—as knowledge deepens. By following natural advancement, one can follow threads on specific topics, and "backlinks view" reveals hidden structures. All pages remain unfinished, in conversation with earlier versions and new ideas, much like the creators of these systems.
 
