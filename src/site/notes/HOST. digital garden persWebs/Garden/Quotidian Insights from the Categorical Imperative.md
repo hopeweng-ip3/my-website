@@ -18,3 +18,6 @@ The Stoics believed that the key to autonomy lies in distinguishing between the 
 My parents (with whom I have a wonderful relationship) both belong to this archetype, while I do not. After learning this concept, I was able to better understand the "selflessness" inherent in their character. Living according to the Categorical Imperative naturally brings about a sense of individual smallness and humility. It is profound.
 
 On the other hand, studying the Categorical Imperative helps me curb my own overthinking. The concept guides me to experience the moral reality behind every role I play—and there, I can stop, and I can rest.
+
+
+#literatureOperators 

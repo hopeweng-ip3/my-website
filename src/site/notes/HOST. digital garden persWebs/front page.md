@@ -32,12 +32,6 @@ What signals are you noticing? What systems are you building to listen?
 </div>
 </div>
 
-
-
-> [!NOTE] An initial entry to the garden:
-> [[HOST. digital garden persWebs/Garden/Quotidian Insights from the Categorical Imperative\|Quotidian Insights from the Categorical Imperative]]
-
-
 <style>
 /* --- Homepage Layout & Padding --- */
 body .content {
@@ -115,3 +109,4 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 </script>
+

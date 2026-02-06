@@ -1,14 +1,18 @@
 ---
-{"dg-publish":true,"permalink":"/host-digital-garden-pers-webs/garden/path-of-inner-work/","title":"Path of Inner Work"}
+{"dg-publish":true,"permalink":"/host-digital-garden-pers-webs/garden/path-of-inner-work/","title":"Path of Inner Work","tags":["Navigation"]}
 ---
 
-	
+
 # Gateway
 
 
-This garden charts three areas for its nodes, by depth. By the order of vagueness – 
+This garden charts ideas in common spiritually from observation, designating them into one of three levels. These are ordered by depth (and vagueness), with the deeper ones listed last.
 
+#theOriginOfPhotography
+#literatureOperators
+#springSea 
 
-[[HOST. digital garden persWebs/Garden/The Origin of Photography\|The Origin of Photography]]
-[[HOST. digital garden persWebs/Garden/Literature\|Literature]]
-[[HOST. digital garden persWebs/Garden/Ocean about Strangers\|Ocean about Strangers]]
+> [!Check] An initial entry to the garden:
+> [[HOST. digital garden persWebs/Garden/Quotidian Insights from the Categorical Imperative\|Quotidian Insights from the Categorical Imperative]]
+
+![the plant of geometry.jpg|500](/img/user/HOST.%20digital%20garden%20persWebs/Repo/the%20plant%20of%20geometry.jpg)

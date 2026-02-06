@@ -26,3 +26,5 @@ This principle anchors us in human dignity and individual worth. It demands that
 This implies that we bear the responsibility of legislating our own behavior. Yet, these self-authored laws must apply to all rational beings, creating a "Kingdom of Ends"—a society woven together by mutual respect and a shared moral foundation.
 
 **In Summary**, Kant’s Categorical Imperative offers a compass for moral behavior that stands independent of personal hunger or environmental conditions. It emphasizes universality, reason, and respect for humanity. By attempting to ground morality in reason, it provides a solid floor for existence: it allows us to act with true **autonomy**, governed not by external authorities or fleeting emotions, but by the discipline of the self.
+
+#literatureOperators
