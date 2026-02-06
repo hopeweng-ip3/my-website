@@ -6,20 +6,20 @@ const allSettings = settings.ALL_NOTE_SETTINGS;
 module.exports = {
   eleventyComputed: {
     layout: (data) => {
-      // Safety Check: Check if tags exist before looking inside them
+      // Safety: Check if tags exist before reading them
       if (data.tags && data.tags.includes("gardenEntry")) {
         return "layouts/index.njk";
       }
       return "layouts/note.njk";
     },
     permalink: (data) => {
-      // 1. Home Page Logic
+      // 1. Homepage Logic
       if (data.tags && data.tags.includes("gardenEntry")) {
         return "/";
       }
 
-      // 2. FORCE FIX: Manually set the paths for your specific pages
-      // This ensures they work even if the YAML frontmatter is ignored.
+      // 2. HARDCODED BYPASS (The Fix)
+      // We check the filename (slug) and force the URL we want.
       if (data.page.fileSlug === 'the-media-project') {
         return '/media-project/';
       }
@@ -27,14 +27,10 @@ module.exports = {
         return '/inner-work/';
       }
 
-      // 3. Use manual permalink if present (for other future pages)
-      if (data.permalink) {
-        return data.permalink;
-      }
-
-      // 4. Default Fallback: Clean URL structure
-      // This prevents the ugly "host-digital-garden..." URLs
-      return `/notes/${data.page.fileSlug}/`;
+      // 3. Default Fallback
+      // If we are here, it's a normal note. Use the clean /notes/ URL.
+      // We use 'undefined' so it defaults to the standard behavior if no manual link exists.
+      return data.permalink || `/notes/${data.page.fileSlug}/`;
     },
     settings: (data) => {
       const noteSettings = {};
