@@ -6,21 +6,35 @@ const allSettings = settings.ALL_NOTE_SETTINGS;
 module.exports = {
   eleventyComputed: {
     layout: (data) => {
-      // FIX 1: Safety Check - Check if tags exist before looking inside them
+      // Safety Check: Check if tags exist before looking inside them
       if (data.tags && data.tags.includes("gardenEntry")) {
         return "layouts/index.njk";
       }
       return "layouts/note.njk";
     },
     permalink: (data) => {
-      // FIX 2: Safety Check - Check if tags exist before looking inside them
+      // 1. Home Page Logic
       if (data.tags && data.tags.includes("gardenEntry")) {
         return "/";
       }
 
-      // CRITICAL FIX: If a manual permalink is set in YAML, use it!
-      // If this returns undefined, Eleventy will use the default path.
-      return data.permalink || undefined;
+      // 2. FORCE FIX: Manually set the paths for your specific pages
+      // This ensures they work even if the YAML frontmatter is ignored.
+      if (data.page.fileSlug === 'the-media-project') {
+        return '/media-project/';
+      }
+      if (data.page.fileSlug === 'path-of-inner-work') {
+        return '/inner-work/';
+      }
+
+      // 3. Use manual permalink if present (for other future pages)
+      if (data.permalink) {
+        return data.permalink;
+      }
+
+      // 4. Default Fallback: Clean URL structure
+      // This prevents the ugly "host-digital-garden..." URLs
+      return `/notes/${data.page.fileSlug}/`;
     },
     settings: (data) => {
       const noteSettings = {};
