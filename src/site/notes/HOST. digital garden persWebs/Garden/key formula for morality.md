@@ -25,6 +25,15 @@ This principle anchors us in human dignity and individual worth. It demands that
 
 This implies that we bear the responsibility of legislating our own behavior. Yet, these self-authored laws must apply to all rational beings, creating a "Kingdom of Ends"—a society woven together by mutual respect and a shared moral foundation.
 
-**In Summary**, Kant’s Categorical Imperative offers a compass for moral behavior that stands independent of personal hunger or environmental conditions. It emphasizes universality, reason, and respect for humanity. By attempting to ground morality in reason, it provides a solid floor for existence: it allows us to act with true **autonomy**, governed not by external authorities or fleeting emotions, but by the discipline of the self.
+Kant’s Categorical Imperative offers a compass for moral behavior that stands independent of personal hunger or environmental conditions. It emphasizes universality, reason, and respect for humanity. By attempting to ground morality in reason, it provides a solid floor for existence: it allows us to act with true **autonomy**, governed not by external authorities or fleeting emotions, but by the discipline of the self.
+
+
+> Book list
+
+Cureton, A. (2013). A contractualist reading of Kant's proof of the Formula of Humanity. _Kantian Review_, _18_(3), 363–386. [https://doi.org/10.1017/s1369415413000150](https://www.google.com/search?q=https://doi.org/10.1017/s1369415413000150)
+
+Kant, I. (1998). _Groundwork of the metaphysics of morals_ (M. Gregor, Trans. & Ed.). Cambridge University Press. (Original work published 1785).
+
+Welling, R. (2025). Kant's Formula of Universal Law as a moral principle. _Aporia_, _35_(1), 41–55.
 
 #literatureOperators

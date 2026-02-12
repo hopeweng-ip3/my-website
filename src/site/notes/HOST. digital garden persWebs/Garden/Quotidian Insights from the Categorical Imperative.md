@@ -2,6 +2,7 @@
 {"dg-publish":true,"permalink":"/host-digital-garden-pers-webs/garden/quotidian-insights-from-the-categorical-imperative/","title":"Quotidian Insights from the Categorical Imperative"}
 ---
 
+## Quotidian Insights from the Categorical Imperative
 
 I first encountered Kant’s concept of the "Categorical Imperative (meaning unconditional action for a matter)" in a book on personality psychology. It was presented as the internal drive found in a specific archetype of people: those who are highly law-abiding and deeply committed to common societal values.
 
