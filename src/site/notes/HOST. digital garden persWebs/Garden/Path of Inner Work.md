@@ -12,7 +12,7 @@ This garden charts ideas in common spiritually from observation, designating the
 #literatureOperators
 #springSea 
 
-> [!Check] An initial entry to the garden:
-> [[HOST. digital garden persWebs/Garden/Quotidian Insights from the Categorical Imperative\|Quotidian Insights from the Categorical Imperative]]
-
 ![the plant of geometry.jpg|500](/img/user/HOST.%20digital%20garden%20persWebs/Repo/the%20plant%20of%20geometry.jpg)
+
+> [!todo] An initial entry to the garden:
+> [[HOST. digital garden persWebs/Garden/Quotidian Insights from the Categorical Imperative\|Quotidian Insights from the Categorical Imperative]]
