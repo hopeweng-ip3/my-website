@@ -5,9 +5,9 @@
 
 # Gateway
 
+This garden visually represents common and spiritual ideas observed in nature, categorizing them into three thematic labels based on the depth (and vagueness). 
 
-This garden charts ideas in common spiritually from observation, designating them into one of three levels. These are ordered by depth (and vagueness), with the deeper ones listed last.
-
+The deeper and more abstract labels are listed last –
 #theOriginOfPhotography
 #literatureOperators
 #springSea 
