@@ -3,7 +3,13 @@
 ---
 
 
-This writing is about: model sketch in written language, and frame this for information seeking in social media
+# Title: Media Source Selection Under Cognitive Constraints
+
+The media source selection problem models the optimal allocation of limited attention across multiple dynamic information streams. The user (agent/decision-maker) must balance the utility of acquiring high-value information against the cognitive costs of monitoring sources and switching contexts.
+
+The user faces a trade-off: invest in a high-cost, sophisticated policy (e.g., complex vetting) to reduce future uncertainty, or adopt a low-cost heuristic that may yield lower ongoing utility.
+
+This model draws on the framework of Resource Rationality, treating the governance strategy itself as an optimization target.
 
 ## The Model Architecture
 

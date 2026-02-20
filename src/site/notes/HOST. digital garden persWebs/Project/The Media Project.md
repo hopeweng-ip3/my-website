@@ -6,7 +6,9 @@
 # Gateway
 
 
-This garden documented the projects' progress. Three introducing pages –
+This garden documents the active progress of the project. 
+
+> Three introducing pages: 
 
 Updated understanding: [[HOST. digital garden persWebs/Repo/Problem statement in written text\|Problem statement in written text]]
 Umbrella work: [[HOST. digital garden persWebs/Project/SCDMs. Structural Causal Decision Models\|SCDMs. Structural Causal Decision Models]]
