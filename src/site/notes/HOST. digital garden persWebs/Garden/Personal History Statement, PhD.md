@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/host-digital-garden-pers-webs/garden/personal-history-statement-ph-d/","title":"Personal History Statement, PhD"}
+{"dg-publish":true,"permalink":"/host-digital-garden-pers-webs/garden/personal-history-statement-ph-d/","title":"Personal History Statement, PhD","dg-note-properties":{"title":"Personal History Statement, PhD"}}
 ---
 
 

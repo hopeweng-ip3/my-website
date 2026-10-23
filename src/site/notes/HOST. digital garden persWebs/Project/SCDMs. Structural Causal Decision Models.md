@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/host-digital-garden-pers-webs/project/scd-ms-structural-causal-decision-models/","title":"SCDMs"}
+{"dg-publish":true,"permalink":"/host-digital-garden-pers-webs/project/scd-ms-structural-causal-decision-models/","title":"SCDMs","dg-note-properties":{"title":"SCDMs"}}
 ---
 
 

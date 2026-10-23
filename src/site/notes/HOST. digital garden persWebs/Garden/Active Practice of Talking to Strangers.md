@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/host-digital-garden-pers-webs/garden/active-practice-of-talking-to-strangers/","title":"Active Practice of Talking to Strangers"}
+{"dg-publish":true,"permalink":"/host-digital-garden-pers-webs/garden/active-practice-of-talking-to-strangers/","title":"Active Practice of Talking to Strangers","dg-note-properties":{"title":"Active Practice of Talking to Strangers","created":"2026-02-12"}}
 ---
 
 # The Radical Act of Presence: Why We Must Speak to Strangers

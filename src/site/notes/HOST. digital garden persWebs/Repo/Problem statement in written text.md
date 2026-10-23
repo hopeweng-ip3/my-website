@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/host-digital-garden-pers-webs/repo/problem-statement-in-written-text/","title":"Problem statement"}
+{"dg-publish":true,"permalink":"/host-digital-garden-pers-webs/repo/problem-statement-in-written-text/","title":"Problem statement","dg-note-properties":{"title":"Problem statement"}}
 ---
 
 

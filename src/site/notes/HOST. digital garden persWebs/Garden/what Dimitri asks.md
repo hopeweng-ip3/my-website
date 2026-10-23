@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/host-digital-garden-pers-webs/garden/what-dimitri-asks/","title":"tasks"}
+{"dg-publish":true,"permalink":"/host-digital-garden-pers-webs/garden/what-dimitri-asks/","title":"tasks","dg-note-properties":{"title":"tasks"}}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/host-digital-garden-pers-webs/project/the-media-project/","title":"The Media Project"}
+{"dg-publish":true,"permalink":"/host-digital-garden-pers-webs/project/the-media-project/","title":"The Media Project","dg-note-properties":{"title":"The Media Project","permalink":"/media-project/"}}
 ---
 
 
@@ -14,4 +14,4 @@ Updated understanding: [[HOST. digital garden persWebs/Repo/Problem statement in
 Umbrella work: [[HOST. digital garden persWebs/Project/SCDMs. Structural Causal Decision Models\|SCDMs. Structural Causal Decision Models]]
 Summary: [[HOST. digital garden persWebs/Project/Two-page Precis\|Two-page Precis]]
 
-![a reading person.jpg|500](/img/user/HOST.%20digital%20garden%20persWebs/Repo/a%20reading%20person.jpg)
+![a reading person.jpg\|500](/img/user/HOST.%20digital%20garden%20persWebs/Repo/a%20reading%20person.jpg)

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/host-digital-garden-pers-webs/front-page/","title":"The Garden is A View","tags":["gardenEntry"]}
+{"dg-publish":true,"permalink":"/host-digital-garden-pers-webs/front-page/","title":"The Garden is A View","tags":["gardenEntry"],"dg-note-properties":{"title":"The Garden is A View"}}
 ---
 
 <h1 class="homepage-header">Signals and Systems</h1>

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/host-digital-garden-pers-webs/garden/key-formula-for-morality/"}
+{"dg-publish":true,"permalink":"/host-digital-garden-pers-webs/garden/key-formula-for-morality/","dg-note-properties":{"title":null,"created":"2026-01-29"}}
 ---
 
 

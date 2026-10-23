@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/host-digital-garden-pers-webs/garden/quotidian-insights-from-the-categorical-imperative/","title":"Quotidian Insights from the Categorical Imperative"}
+{"dg-publish":true,"permalink":"/host-digital-garden-pers-webs/garden/quotidian-insights-from-the-categorical-imperative/","title":"Quotidian Insights from the Categorical Imperative","dg-note-properties":{"title":"Quotidian Insights from the Categorical Imperative","created":"2026-01-29"}}
 ---
 
 ## Quotidian Insights from the Categorical Imperative

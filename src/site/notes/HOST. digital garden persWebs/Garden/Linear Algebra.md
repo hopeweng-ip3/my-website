@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/host-digital-garden-pers-webs/garden/linear-algebra/","title":"Notes on Linear Maps and Linear Operators"}
+{"dg-publish":true,"permalink":"/host-digital-garden-pers-webs/garden/linear-algebra/","title":"Notes on Linear Maps and Linear Operators","dg-note-properties":{"title":"Notes on Linear Maps and Linear Operators"}}
 ---
 
 # Matrix Representation of Linear Maps
